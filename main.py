@@ -1,7 +1,12 @@
 import random
 
+rounds_played = 0
+enemy_win = 0
+user_win = 0
 weapons = ["rock","paper","scissors"]
 
+
+#starts initalizing choices from both sides
 user_weapon = int(input("Choose your weapon\n\n1. Rock\n2. Paper\n3. Scissors\n\n"))
 
 if not isinstance(user_weapon, int):
@@ -11,15 +16,10 @@ else:
     weapon = random.choice(weapons)
     print("The enemy has selected: " + weapon.capitalize())
 
-
-rounds_played = 0
-enemy_win = 0
-user_win = 0
-
-
-
-for i in range(5): #Problem Area - it should allow the user & enemy to re-select their choices - currently it runs the for loop x amount in range() - call a function maybe?
-        
+#Problem area - it should allow the user & enemy to re-select their choices - currently it runs the for loop x amount in range() - call a function maybe?
+for i in range(5): 
+    #function here?    
+    
     if weapons[user_weapon-1] == weapon :
         print("Draw!")
         rounds_played = rounds_played + 1
