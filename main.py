@@ -26,7 +26,7 @@ def get_choices():
 
 
 #gameloop
-for i in range(rounds-1): 
+for i in range(rounds+1): 
     get_choices()
     
     if choices[user_choice-1] == opponent_choice :
