@@ -3,9 +3,9 @@ This is a simple command-line Rock, Paper, Scissors game written in Python. It's
 Project Plan:
 The player selects a weapon (rock, paper, or scissors) by entering a number (1–3)
 
-The computer randomly selects its own weapon
+The computer randomly selects its own choice.
 
-The game plays out over 5 rounds
+The game plays out over a selected amount of rounds
 
 It tracks and prints the number of rounds played, wins, and losses
 
