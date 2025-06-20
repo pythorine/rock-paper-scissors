@@ -47,8 +47,3 @@ for i in range(rounds+1):
         enemy_win += 1
         print("You have played " + str(rounds_played) + " rounds!")
         print("Current result: " + str(user_win) + ":" + str(enemy_win))
-
-### add maximum amount of rounds to be played
-### verify that user can only enter integers
-### add winning screen
-### improve gameloop print text
