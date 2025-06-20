@@ -54,7 +54,7 @@ def gameloop():
         if choices[user_choice-1] == opponent_choice :
             print("Draw! 🔄")
             rounds_played += 1
-        elif (choices[user_choice - 1] == "rock " and opponent_choice == "scissors") or \
+        elif (choices[user_choice - 1] == "rock" and opponent_choice == "scissors") or \
             (choices[user_choice - 1] == "paper" and opponent_choice == "rock") or \
             (choices[user_choice - 1] == "scissors" and opponent_choice == "paper"):
             
