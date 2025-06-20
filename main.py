@@ -31,20 +31,20 @@ for i in range(rounds+1):
     
     if choices[user_choice-1] == opponent_choice :
         print("Draw!")
-        rounds_played = rounds_played + 1
+        rounds_played += 1
     elif (choices[user_choice - 1] == "rock" and opponent_choice == "scissors") or \
          (choices[user_choice - 1] == "paper" and opponent_choice == "rock") or \
          (choices[user_choice - 1] == "scissors" and opponent_choice == "paper"):
         
         print("You win!")
-        rounds_played = rounds_played + 1
-        user_win = user_win + 1
+        rounds_played += 1
+        user_win += 1
         print("You have played " + str(rounds_played) + " rounds!")
         print("Current result: " + str(user_win) + ":" + str(enemy_win))
     else:
         print("You lose!")
-        rounds_played = rounds_played + 1
-        enemy_win = enemy_win + 1
+        rounds_played += 1
+        enemy_win += 1
         print("You have played " + str(rounds_played) + " rounds!")
         print("Current result: " + str(user_win) + ":" + str(enemy_win))
 
